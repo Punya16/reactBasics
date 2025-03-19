@@ -26,6 +26,7 @@ import Effect from './components/Effect';
 import MuiNavbar from './components/MUI/MuiNavbar';
 import Api from './components/Api';
 import Recipe from './components/Recipe';
+import Search from './components/MUI/Search';
 
 
 function App() {
@@ -44,7 +45,7 @@ function App() {
     //   <Ternary/>
     //   <Props/>
     // </div>
-
+    <div>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -73,6 +74,7 @@ function App() {
         <Route path="/*" element={<Error />} />
       </Routes>
     </BrowserRouter>
+    </div>
   )
 }
 

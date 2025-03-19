@@ -17,6 +17,7 @@ export default function Home() {
       <Link to="/effect">UseEffect</Link> <br/>
       <Link to="/api">Api</Link> <br/>
       <Link to="/recipe">Recipe</Link> <br/>
+      <Link to="/search">Search</Link> <br/>
     </div>
   )
 }
